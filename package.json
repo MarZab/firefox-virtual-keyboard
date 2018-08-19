@@ -4,6 +4,7 @@
   "license": "MIT",
   "description": "A virtual keyboard made for Firefox.",
   "scripts": {
-    "run": "web-ext run -s src/ --verbose --browser-console"
+    "run": "web-ext run -s src/ --verbose --browser-console",
+    "sign": "web-ext sign -s ./src --api-key=$npm_config_webextuser --api-secret=$npm_config_webextsecret --artifacts-dir=dist-zip"
   }
 }

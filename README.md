@@ -1,4 +1,4 @@
-WxVirtualKeyboard: On-screen Virtual Keyboard made with Webextensions
+WxVirtualKeyboard: Firefox port of Chrome Virtual Keyboard
 =========================================
 
 ## About
