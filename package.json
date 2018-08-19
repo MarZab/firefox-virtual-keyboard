@@ -1,0 +1,9 @@
+{
+  "name": "FirefoxVirtualKeyboard",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A virtual keyboard made for Firefox.",
+  "scripts": {
+    "run": "web-ext run -s src/ --verbose --browser-console"
+  }
+}

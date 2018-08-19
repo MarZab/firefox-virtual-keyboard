@@ -3,16 +3,9 @@ body.loaded {
 }
 
 #page {
-    -webkit-transition: all 0.55s ease-out;
-    -webkit-transform: scale(0.9) translate3d(-230px, 0, 0);
-    min-width: 1000px;
     padding: 30px;
     padding-top: 80px;
     padding-left: 60px;
-}
-
-body.loaded #page {
-    -webkit-transform: translate3d(0, 0, 0) perspective(800);
 }
 
 select::-webkit-scrollbar {
@@ -73,40 +66,6 @@ h2 {
 #options {
     margin-top: 30px;
     font-size: 14px;
-}
-
-#links a#footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-top: 1px solid #BBB;
-    padding: 20px 30px;
-    font-size: 13px;
-    color: #222;
-    text-decoration: none;
-    border-bottom: 0;
-    margin-bottom: 0;
-}
-
-#links a#footer:hover {
-    background-color: #eee;
-}
-
-#links a#footer span {
-    background-image: url(https://xontab.com/res/images/logo/header.png);
-    background-repeat: no-repeat;
-    background-size: 50px;
-    height: 50px;
-    padding-left: 60px;
-    font-size: 23px;
-    margin-top: 12px;
-    padding-top: 8px;
-    text-decoration: none;
-    color: #20509F;
-    letter-spacing: -1px;
-    margin-left: 10px;
-    display: inline-block;
 }
 
 select,
